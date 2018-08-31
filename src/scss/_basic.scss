@@ -1,0 +1,26 @@
+@keyframes showUp {
+0% {
+    opacity: 0;
+    transform: translateY(25%);
+}
+
+100% {
+    opacity: 1;
+    transform: translateY(0%);
+}
+}
+
+.showUpAnim {
+    animation: showUp 1.2s;    
+    animation-fill-mode: forwards;
+}
+
+.anim-element {
+    opacity: 0;
+}
+.boxes_box--box2{
+    animation-delay: 1s;
+}
+.boxes_box--box3{
+    animation-delay: 1.5s;
+}
