@@ -1,11 +1,10 @@
 1. clone this repo
-2. install gulp globaly: npm install -g gulp
-3. npm init - create package.json
-4. install gulp localy: npm install --save gulp
+2. npm init - create package.json
+3. npm install gulp
 5. install all directories you need - as you have in your gulpfile.js:
-    
-    npm install --save --dev browser-sync 
-    npm install --save gulp-uglify 
+    npm install gulp-uglify --save-dev
+    // "browser-sync"
+    // "gulp"
     // "gulp-autoprefixer"
     // "gulp-concat"
     // "gulp-notify"
@@ -13,7 +12,7 @@
     // "gulp-sass"
     // "gulp-sourcemaps"
     and 
-    npm install bootstrap-sass *option
+    npm install bootstrap-sass
     npm install jquery
 
 6. gulp build - build your build folder
